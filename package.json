@@ -15,12 +15,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/marcosjara/facturacionelectronicapy-kude.git"
+    "url": "https://github.com/enzobonf/facturacionelectronicapy-kude.git"
   },
   "bugs": {
-    "url": "https://github.com/marcosjara/facturacionelectronicapy-kude/issues"
+    "url": "https://github.com/enzobonf/facturacionelectronicapy-kude/issues"
   },
-  "homepage": "https://github.com/marcosjara/facturacionelectronicapy-kude#readme",
+  "homepage": "https://github.com/enzobonf/facturacionelectronicapy-kude#readme",
   "files": [
     "dist/**/*"
   ],
