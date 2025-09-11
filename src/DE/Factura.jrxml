@@ -1052,7 +1052,7 @@
 					<pen lineWidth="1.5"/>
 				</box>
 				<textField pattern="#### #### #### #### #### #### #### #### #### ####">
-					<reportElement x="184" y="60" width="364" height="17" uuid="364e5fb7-db8a-4473-a9e5-f1d145e10453">
+					<reportElement x="184" y="60" width="330" height="17" uuid="364e5fb7-db8a-4473-a9e5-f1d145e10453">
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
 					<textElement verticalAlignment="Middle">
@@ -1109,7 +1109,7 @@
 				<textElement>
 					<font size="10"/>
 				</textElement>
-				<text><![CDATA[Consulte la validez de esta Factura Electrónica con el número de CDC impreso abajo en (teste):]]></text>
+				<text><![CDATA[Consulte la validez de esta Factura Electrónica con el número de CDC impreso abajo en:]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="148" y="96" width="184" height="15" uuid="91510ea7-5f1c-4e49-b67d-6585a329e8e9">
