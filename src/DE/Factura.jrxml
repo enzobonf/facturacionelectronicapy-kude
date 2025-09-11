@@ -681,7 +681,7 @@
 					<textFieldExpression><![CDATA[($F{iNatRec} == 1?  "RUC: " +  $F{dRucRec}+ "-" + $F{dDVRec}  : "Documento de identidad:  "+ $F{dNumIDRec})]]></textFieldExpression>
 				</textField>
 				<textField isBlankWhenNull="true">
-					<reportElement x="348" y="21" width="207" height="10" uuid="7a1d805e-61c3-40e3-9c7d-2bc0ef952988"/>
+					<reportElement x="348" y="21" width="316" height="10" uuid="7a1d805e-61c3-40e3-9c7d-2bc0ef952988"/>
 					<textElement>
 						<font size="7"/>
 					</textElement>
