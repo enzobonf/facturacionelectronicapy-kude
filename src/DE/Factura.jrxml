@@ -1109,7 +1109,7 @@
 				<textElement>
 					<font size="10"/>
 				</textElement>
-				<text><![CDATA[Consulte la validez de esta Factura Electrónica con el número de CDC impreso abajo en:]]></text>
+				<text><![CDATA[Consulte la validez de esta Factura Electrónica con el número de CDC impreso abajo en (teste):]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="148" y="96" width="184" height="15" uuid="91510ea7-5f1c-4e49-b67d-6585a329e8e9">
