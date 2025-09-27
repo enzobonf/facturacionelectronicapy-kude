@@ -930,10 +930,10 @@
 		</band>
 	</columnHeader>
 	<detail>
-		<band height="16" splitType="Stretch">
+		<band height="16" splitType="Prevent">
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 			<textField textAdjust="StretchHeight">
-				<reportElement x="57" y="3" width="165" height="10" isPrintWhenDetailOverflows="true" uuid="3ab31cde-ac02-419d-b69a-5fbe692f0484">
+				<reportElement stretchType="RelativeToTallestObject" x="57" y="3" width="165" height="10" isPrintWhenDetailOverflows="true" uuid="3ab31cde-ac02-419d-b69a-5fbe692f0484">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="29f58474-1738-49aa-a73d-37a6cbf3d577"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 				</reportElement>
@@ -943,81 +943,81 @@
 				<textFieldExpression><![CDATA[$F{dDesProSer}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="226" y="3" width="35" height="10" uuid="2db912b2-480f-44e0-9093-85cbd1e8d844">
+				<reportElement stretchType="RelativeToTallestObject" x="226" y="3" width="35" height="10" uuid="2db912b2-480f-44e0-9093-85cbd1e8d844">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="9c2ce6b7-591d-4011-879c-834cf98a0e69"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 				</reportElement>
-				<textElement textAlignment="Center">
+				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="7"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{dDesUniMed}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="322" y="3" width="36" height="10" uuid="fceb24b8-5dba-4a68-a140-196d91a6d527">
+				<reportElement stretchType="RelativeToTallestObject" x="322" y="3" width="36" height="10" uuid="fceb24b8-5dba-4a68-a140-196d91a6d527">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="d1392975-1ed6-4fdf-83a0-7976d4384b71"/>
 				</reportElement>
-				<textElement textAlignment="Center">
+				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="7"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{dCantProSer}]]></textFieldExpression>
 			</textField>
 			<textField pattern="#,###.###;(#,###.###-)">
-				<reportElement x="500" y="3" width="50" height="10" uuid="1d135cd2-685c-45ae-87e0-96863440a66c">
+				<reportElement stretchType="RelativeToTallestObject" x="500" y="3" width="50" height="10" uuid="1d135cd2-685c-45ae-87e0-96863440a66c">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="46b75097-662e-4590-80c2-6367c1fc5b80"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 				</reportElement>
-				<textElement textAlignment="Right">
+				<textElement textAlignment="Right" verticalAlignment="Middle">
 					<font size="7"/>
 				</textElement>
 				<textFieldExpression><![CDATA[($F{dTasaIVA} == 10) ?$F{dTotOpeItem}:0]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="3" y="3" width="47" height="10" uuid="cc64cd71-01a7-448b-b848-9915dc9d0557">
+				<reportElement stretchType="RelativeToTallestObject" x="3" y="3" width="47" height="10" uuid="cc64cd71-01a7-448b-b848-9915dc9d0557">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="e983057f-222d-422b-bd60-858cc93e6cf1"/>
 				</reportElement>
-				<textElement>
+				<textElement verticalAlignment="Middle">
 					<font size="7"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{dCodInt}]]></textFieldExpression>
 			</textField>
 			<textField pattern="#,##0.###;(#,##0.###-)">
-				<reportElement x="266" y="3" width="50" height="10" uuid="bbd6de7f-dd7c-4e1b-a42d-9746267d938a">
+				<reportElement stretchType="RelativeToTallestObject" x="266" y="3" width="50" height="10" uuid="bbd6de7f-dd7c-4e1b-a42d-9746267d938a">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="97717df6-e2eb-4782-80e0-07b47827c1b0"/>
 					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 				</reportElement>
-				<textElement textAlignment="Right">
+				<textElement textAlignment="Right" verticalAlignment="Middle">
 					<font size="7"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{dPUniProSer}]]></textFieldExpression>
 			</textField>
 			<textField pattern="#,##0.###;(#,##0.###-)" isBlankWhenNull="true">
-				<reportElement x="358" y="3" width="48" height="10" uuid="e36ace80-5ee1-41e6-be9f-1c8a71f8b311">
+				<reportElement stretchType="RelativeToTallestObject" x="358" y="3" width="48" height="10" uuid="e36ace80-5ee1-41e6-be9f-1c8a71f8b311">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="23e8b3aa-5c0d-40ee-82e9-68329dac4465"/>
 					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 				</reportElement>
-				<textElement textAlignment="Right" markup="none">
+				<textElement textAlignment="Right" verticalAlignment="Middle" markup="none">
 					<font size="7"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{dDescItem}]]></textFieldExpression>
 			</textField>
 			<textField pattern="#,###.###;(#,###.###-)">
-				<reportElement x="409" y="3" width="39" height="10" uuid="fed1a6e8-6e1a-4155-8c4b-9b288d8d8e89">
+				<reportElement stretchType="RelativeToTallestObject" x="409" y="3" width="39" height="10" uuid="fed1a6e8-6e1a-4155-8c4b-9b288d8d8e89">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="46b75097-662e-4590-80c2-6367c1fc5b80"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 				</reportElement>
-				<textElement textAlignment="Right">
+				<textElement textAlignment="Right" verticalAlignment="Middle">
 					<font size="7"/>
 				</textElement>
 				<textFieldExpression><![CDATA[($F{dTasaIVA} == 0) ?$F{dTotOpeItem}:0]]></textFieldExpression>
 			</textField>
 			<textField pattern="#,###.###;(#,###.###-)">
-				<reportElement x="451" y="3" width="45" height="10" uuid="771f2b58-968f-4d8f-bb49-65776584fdbc">
+				<reportElement stretchType="RelativeToTallestObject" x="451" y="3" width="45" height="10" uuid="771f2b58-968f-4d8f-bb49-65776584fdbc">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="46b75097-662e-4590-80c2-6367c1fc5b80"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 				</reportElement>
-				<textElement textAlignment="Right">
+				<textElement textAlignment="Right" verticalAlignment="Middle">
 					<font size="7"/>
 				</textElement>
 				<textFieldExpression><![CDATA[($F{dTasaIVA} == 5) ?$F{dTotOpeItem}:0]]></textFieldExpression>
