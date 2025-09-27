@@ -1023,7 +1023,7 @@
 				<textFieldExpression><![CDATA[($F{dTasaIVA} == 5) ?$F{dTotOpeItem}:0]]></textFieldExpression>
 			</textField>
 			<textField textAdjust="StretchHeight" isBlankWhenNull="true">
-				<reportElement x="57" y="15" width="165" height="0" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="c063d6de-7d33-45bc-b32e-cab86e84109f">
+				<reportElement positionType="Float" x="57" y="15" width="165" height="0" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="c063d6de-7d33-45bc-b32e-cab86e84109f">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="29f58474-1738-49aa-a73d-37a6cbf3d577"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
